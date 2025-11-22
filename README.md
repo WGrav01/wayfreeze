@@ -82,6 +82,7 @@ Then, install it by running the following as root:
 ```
 emerge -a gui-apps/wayfreeze
 ```
+Note: Like the AUR package, I do not maintain this myself.
 
 ### From source:
 
