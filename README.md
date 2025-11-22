@@ -74,6 +74,12 @@ There is an AUR package available at https://aur.archlinux.org/packages/wayfreez
 
 Note: I do not maintain this package myself.
 
+### Gentoo
+
+There is an ebuild available on the GURU repository. To enable it, run `eselect repository enable guru` as root.
+
+Then, install it by running `emerge -a gui-apps/wayfreeze` as root. 
+
 ### From source:
 
 Firstly, ensure you have Rust, Cargo, and the libxkbcommon development headers.
