@@ -78,7 +78,10 @@ Note: I do not maintain this package myself.
 
 There is an ebuild available on the GURU repository. To enable it, run `eselect repository enable guru` as root.
 
-Then, install it by running `emerge -a gui-apps/wayfreeze` as root. 
+Then, install it by running the following as root:
+```
+emerge -a gui-apps/wayfreeze
+```
 
 ### From source:
 
