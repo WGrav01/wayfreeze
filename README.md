@@ -76,8 +76,11 @@ Note: I do not maintain this package myself.
 
 ### Gentoo
 
-There is an ebuild available on the GURU repository. To enable it, run `eselect repository enable guru` as root.
-
+There is an ebuild available on the GURU repository. To enable it, run `eselect repository enable guru` as root, then run `emerge --sync guru`.
+Because it is a live ebuild, it does not have keywords, and must therefore be unmasked manually:
+```
+echo 'gui-apps/wayfreeze **' > /etc/portage/package.accept_keywords'
+```
 Then, install it by running the following as root:
 ```
 emerge -a gui-apps/wayfreeze
